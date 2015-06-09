@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.7"
+        android:text="My Nanodegree Apps!"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0.08"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="SportifyStreamerResponse"
+        android:text="Spotify Streamer"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0.08"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="ScoresAppResponse"
+        android:text="Scores App"
+        android:textColor="@android:color/black" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0.08"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="LibraryAppResponse"
+        android:text="Library App"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0.08"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="BuilItBiggerResponse"
+        android:text="Build It Bigger"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0.08"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="XyzReaderResponse"
+        android:text="Xyz Reader"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="0.08"
+        android:background="@android:color/holo_red_dark"
+        android:onClick="MyOwnAppResponse"
+        android:text="Capstone: My Own App"
+        android:textColor="@android:color/white" />
+
+    <!-- This is just a place holder, and make it easier to divide the spaces -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7" />
+
+</LinearLayout>
